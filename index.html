@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <p>Greatest Arena Battle ever to be made!</p>
+        <h2>Choose your character!</h2>
+    </div>
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Gamer');">
+            <img src="img/avatar-player/gamer.jpg" alt="gamer">
+            <div>
+                <h3>Gamer</h3>
+                <p>Her keen intellect and strategic prowess rival that of the ancient wizards, as she navigates treacherous dungeons and scales towering mountains.</p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Swordman');">
+            <img src="img/avatar-player/swordman.jpg" alt="swordman">
+            <div>
+                <h3>Swordman</h3>
+                <p>With each swing of their gleaming sword, they dance with the ferocity of a thunderstorm, their movements a symphony of lethal precision.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Pirate');">
+            <img src="img/avatar-player/pirate.jpg" alt="pirate">
+
+            <div>
+                <h3>Pirate</h3>
+                <p>Winds carry tales of adventure and treachery, a figure emerges from the depths of folklore—the pirate.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Zombie');">
+            <img src="img/avatar-player/zombie.jpg" alt="zombie">
+            <div>
+                <h3>Zombie</h3>
+                <p>Once a mere mortal, this hero was cursed by a powerful necromancer, condemned to roam the world of the undead.</p>
+            </div>
+        </a>
+
+    </div>
+
+    <div class="actions">
+
+    </div>
+
+    <div class="arena">
+
+    </div>
+
+    <div class="enemy">
+
+    </div>
+   
+</body>
+</html>
